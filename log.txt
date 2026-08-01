@@ -1,0 +1,1429 @@
+stock/
+├── dataset
+│   ├── code1
+│   │   ├── 20260403.csv
+│   │   ├── 20260404.csv
+│   │   ├── 20260405.csv
+│   │   ├── 20260406.csv
+│   │   ├── 20260407.csv
+│   │   ├── 20260408.csv
+│   │   ├── 20260409.csv
+│   │   ├── 20260410.csv
+│   │   ├── 20260411.csv
+│   │   ├── 20260412.csv
+│   │   ├── 20260413.csv
+│   │   ├── 20260414.csv
+│   │   ├── 20260415.csv
+│   │   ├── 20260416.csv
+│   │   ├── 20260417.csv
+│   │   ├── 20260418.csv
+│   │   ├── 20260419.csv
+│   │   ├── 20260420.csv
+│   │   ├── 20260421.csv
+│   │   ├── 20260422.csv
+│   │   ├── 20260423.csv
+│   │   ├── 20260424.csv
+│   │   ├── 20260425.csv
+│   │   ├── 20260426.csv
+│   │   ├── 20260427.csv
+│   │   ├── 20260428.csv
+│   │   ├── 20260429.csv
+│   │   ├── 20260430.csv
+│   │   ├── 20260501.csv
+│   │   ├── 20260502.csv
+│   │   ├── 20260503.csv
+│   │   ├── 20260504.csv
+│   │   ├── 20260505.csv
+│   │   ├── 20260506.csv
+│   │   ├── 20260507.csv
+│   │   ├── 20260508.csv
+│   │   ├── 20260509.csv
+│   │   ├── 20260510.csv
+│   │   ├── 20260511.csv
+│   │   ├── 20260512.csv
+│   │   ├── 20260513.csv
+│   │   ├── 20260514.csv
+│   │   ├── 20260515.csv
+│   │   ├── 20260516.csv
+│   │   ├── 20260517.csv
+│   │   ├── 20260518.csv
+│   │   ├── 20260519.csv
+│   │   ├── 20260520.csv
+│   │   ├── 20260521.csv
+│   │   ├── 20260522.csv
+│   │   ├── 20260523.csv
+│   │   ├── 20260524.csv
+│   │   ├── 20260525.csv
+│   │   ├── 20260526.csv
+│   │   ├── 20260527.csv
+│   │   ├── 20260528.csv
+│   │   ├── 20260529.csv
+│   │   ├── 20260530.csv
+│   │   ├── 20260531.csv
+│   │   ├── 20260601.csv
+│   │   ├── 20260602.csv
+│   │   ├── 20260603.csv
+│   │   ├── 20260604.csv
+│   │   ├── 20260605.csv
+│   │   ├── 20260606.csv
+│   │   ├── 20260607.csv
+│   │   ├── 20260608.csv
+│   │   ├── 20260609.csv
+│   │   ├── 20260610.csv
+│   │   ├── 20260611.csv
+│   │   ├── 20260612.csv
+│   │   ├── 20260613.csv
+│   │   ├── 20260614.csv
+│   │   ├── 20260615.csv
+│   │   ├── 20260616.csv
+│   │   ├── 20260617.csv
+│   │   ├── 20260618.csv
+│   │   ├── 20260619.csv
+│   │   ├── 20260620.csv
+│   │   ├── 20260621.csv
+│   │   ├── 20260622.csv
+│   │   ├── 20260623.csv
+│   │   ├── 20260624.csv
+│   │   ├── 20260625.csv
+│   │   ├── 20260626.csv
+│   │   ├── 20260627.csv
+│   │   ├── 20260628.csv
+│   │   ├── 20260629.csv
+│   │   ├── 20260630.csv
+│   │   ├── 20260701.csv
+│   │   ├── 20260702.csv
+│   │   ├── 20260703.csv
+│   │   ├── 20260704.csv
+│   │   ├── 20260705.csv
+│   │   ├── 20260706.csv
+│   │   ├── 20260707.csv
+│   │   ├── 20260708.csv
+│   │   ├── 20260709.csv
+│   │   ├── 20260710.csv
+│   │   ├── 20260711.csv
+│   │   ├── 20260712.csv
+│   │   ├── 20260713.csv
+│   │   ├── 20260714.csv
+│   │   ├── 20260715.csv
+│   │   ├── 20260716.csv
+│   │   ├── 20260717.csv
+│   │   ├── 20260718.csv
+│   │   ├── 20260719.csv
+│   │   ├── 20260720.csv
+│   │   ├── 20260721.csv
+│   │   ├── 20260722.csv
+│   │   └── 20260723.csv
+│   ├── code2
+│   │   ├── 20260105.csv
+│   │   ├── 20260106.csv
+│   │   ├── 20260107.csv
+│   │   ├── 20260108.csv
+│   │   ├── 20260109.csv
+│   │   ├── 20260110.csv
+│   │   ├── 20260111.csv
+│   │   ├── 20260112.csv
+│   │   ├── 20260113.csv
+│   │   ├── 20260114.csv
+│   │   ├── 20260115.csv
+│   │   ├── 20260116.csv
+│   │   ├── 20260117.csv
+│   │   ├── 20260118.csv
+│   │   ├── 20260119.csv
+│   │   ├── 20260120.csv
+│   │   ├── 20260121.csv
+│   │   ├── 20260122.csv
+│   │   ├── 20260123.csv
+│   │   ├── 20260124.csv
+│   │   ├── 20260125.csv
+│   │   ├── 20260126.csv
+│   │   ├── 20260127.csv
+│   │   ├── 20260128.csv
+│   │   ├── 20260129.csv
+│   │   ├── 20260130.csv
+│   │   ├── 20260131.csv
+│   │   ├── 20260201.csv
+│   │   ├── 20260202.csv
+│   │   ├── 20260203.csv
+│   │   ├── 20260204.csv
+│   │   ├── 20260205.csv
+│   │   ├── 20260206.csv
+│   │   ├── 20260207.csv
+│   │   ├── 20260208.csv
+│   │   ├── 20260209.csv
+│   │   ├── 20260210.csv
+│   │   ├── 20260211.csv
+│   │   ├── 20260212.csv
+│   │   ├── 20260213.csv
+│   │   ├── 20260214.csv
+│   │   ├── 20260215.csv
+│   │   ├── 20260216.csv
+│   │   ├── 20260217.csv
+│   │   ├── 20260218.csv
+│   │   ├── 20260219.csv
+│   │   ├── 20260220.csv
+│   │   ├── 20260221.csv
+│   │   ├── 20260222.csv
+│   │   ├── 20260223.csv
+│   │   ├── 20260224.csv
+│   │   ├── 20260225.csv
+│   │   ├── 20260226.csv
+│   │   ├── 20260227.csv
+│   │   ├── 20260228.csv
+│   │   ├── 20260301.csv
+│   │   ├── 20260302.csv
+│   │   ├── 20260303.csv
+│   │   ├── 20260304.csv
+│   │   ├── 20260305.csv
+│   │   ├── 20260306.csv
+│   │   ├── 20260307.csv
+│   │   ├── 20260308.csv
+│   │   ├── 20260309.csv
+│   │   ├── 20260310.csv
+│   │   ├── 20260311.csv
+│   │   ├── 20260312.csv
+│   │   ├── 20260313.csv
+│   │   ├── 20260314.csv
+│   │   ├── 20260315.csv
+│   │   ├── 20260316.csv
+│   │   ├── 20260317.csv
+│   │   ├── 20260318.csv
+│   │   ├── 20260319.csv
+│   │   ├── 20260320.csv
+│   │   ├── 20260321.csv
+│   │   ├── 20260322.csv
+│   │   ├── 20260323.csv
+│   │   ├── 20260324.csv
+│   │   ├── 20260325.csv
+│   │   ├── 20260326.csv
+│   │   ├── 20260327.csv
+│   │   ├── 20260328.csv
+│   │   ├── 20260329.csv
+│   │   ├── 20260330.csv
+│   │   ├── 20260331.csv
+│   │   ├── 20260401.csv
+│   │   ├── 20260402.csv
+│   │   ├── 20260403.csv
+│   │   ├── 20260404.csv
+│   │   ├── 20260405.csv
+│   │   ├── 20260406.csv
+│   │   ├── 20260407.csv
+│   │   ├── 20260408.csv
+│   │   ├── 20260409.csv
+│   │   ├── 20260410.csv
+│   │   ├── 20260411.csv
+│   │   ├── 20260412.csv
+│   │   ├── 20260413.csv
+│   │   ├── 20260414.csv
+│   │   ├── 20260415.csv
+│   │   ├── 20260416.csv
+│   │   ├── 20260417.csv
+│   │   ├── 20260418.csv
+│   │   ├── 20260419.csv
+│   │   ├── 20260420.csv
+│   │   ├── 20260421.csv
+│   │   ├── 20260422.csv
+│   │   ├── 20260423.csv
+│   │   ├── 20260424.csv
+│   │   ├── 20260425.csv
+│   │   ├── 20260426.csv
+│   │   ├── 20260427.csv
+│   │   ├── 20260428.csv
+│   │   ├── 20260429.csv
+│   │   ├── 20260430.csv
+│   │   ├── 20260501.csv
+│   │   ├── 20260502.csv
+│   │   ├── 20260503.csv
+│   │   ├── 20260504.csv
+│   │   ├── 20260505.csv
+│   │   ├── 20260506.csv
+│   │   ├── 20260507.csv
+│   │   ├── 20260508.csv
+│   │   ├── 20260509.csv
+│   │   ├── 20260510.csv
+│   │   ├── 20260511.csv
+│   │   ├── 20260512.csv
+│   │   ├── 20260513.csv
+│   │   ├── 20260514.csv
+│   │   ├── 20260515.csv
+│   │   ├── 20260516.csv
+│   │   ├── 20260517.csv
+│   │   ├── 20260518.csv
+│   │   ├── 20260519.csv
+│   │   ├── 20260520.csv
+│   │   ├── 20260521.csv
+│   │   ├── 20260522.csv
+│   │   ├── 20260523.csv
+│   │   ├── 20260524.csv
+│   │   ├── 20260525.csv
+│   │   ├── 20260526.csv
+│   │   ├── 20260527.csv
+│   │   ├── 20260528.csv
+│   │   ├── 20260529.csv
+│   │   ├── 20260530.csv
+│   │   ├── 20260531.csv
+│   │   ├── 20260601.csv
+│   │   ├── 20260602.csv
+│   │   ├── 20260603.csv
+│   │   ├── 20260604.csv
+│   │   ├── 20260605.csv
+│   │   ├── 20260606.csv
+│   │   ├── 20260607.csv
+│   │   ├── 20260608.csv
+│   │   ├── 20260609.csv
+│   │   ├── 20260610.csv
+│   │   ├── 20260611.csv
+│   │   ├── 20260612.csv
+│   │   ├── 20260613.csv
+│   │   ├── 20260614.csv
+│   │   ├── 20260615.csv
+│   │   ├── 20260616.csv
+│   │   ├── 20260617.csv
+│   │   ├── 20260618.csv
+│   │   ├── 20260619.csv
+│   │   ├── 20260620.csv
+│   │   ├── 20260621.csv
+│   │   ├── 20260622.csv
+│   │   ├── 20260623.csv
+│   │   ├── 20260624.csv
+│   │   ├── 20260625.csv
+│   │   ├── 20260626.csv
+│   │   ├── 20260627.csv
+│   │   ├── 20260628.csv
+│   │   ├── 20260629.csv
+│   │   ├── 20260630.csv
+│   │   ├── 20260701.csv
+│   │   ├── 20260702.csv
+│   │   ├── 20260703.csv
+│   │   ├── 20260704.csv
+│   │   ├── 20260705.csv
+│   │   ├── 20260706.csv
+│   │   ├── 20260707.csv
+│   │   ├── 20260708.csv
+│   │   ├── 20260709.csv
+│   │   ├── 20260710.csv
+│   │   ├── 20260711.csv
+│   │   ├── 20260712.csv
+│   │   ├── 20260713.csv
+│   │   ├── 20260714.csv
+│   │   ├── 20260715.csv
+│   │   ├── 20260716.csv
+│   │   ├── 20260717.csv
+│   │   ├── 20260718.csv
+│   │   ├── 20260719.csv
+│   │   ├── 20260720.csv
+│   │   ├── 20260721.csv
+│   │   ├── 20260722.csv
+│   │   └── 20260723.csv
+│   └── code_list.txt
+├── config.py
+├── dataset.py
+├── demo.py
+├── stock.txt
+├── stockgpt.py
+├── stockmodel.py
+├── stockvqvae.py
+├── tmp.py
+└── train.py
+
+============================================================
+文件内容列表：
+============================================================
+
+文件: config.py
+----------------------------------------
+# -*- encoding: utf-8 -*-
+'''
+@File         :config.py
+@Date         :2026/07/24 17:57:34
+@Author       :Binge.Van
+@E-mail       :afb5szh@bosch.com
+@Version      :V1.0.0
+@Description  :
+
+'''
+
+
+import os,sys
+
+from dataclasses import dataclass
+
+
+@dataclass
+class Config:
+    # train config
+    is_train = True
+    devide="cuda"
+    code_list  = "/workspace/afb5szh-01/models/stock/dataset/code_list.txt"
+    batch_size = 2
+    num_workers = 2
+    history_len = 60 # GPT-2 vocab_size of 50257, padded up to nearest multiple of 64 for efficiency
+    future_len = 5
+    
+
+
+
+if __name__ == '__main__':
+    main()
+----------------------------------------
+
+文件: dataset.py
+----------------------------------------
+# -*- encoding: utf-8 -*-
+'''
+@File         :dataset.py
+@Date         :2026/07/23 15:04:51
+@Author       :Binge.Van
+@E-mail       :afb5szh@bosch.com
+@Version      :V1.0.0
+@Description  :
+
+'''
+
+
+import os,sys
+import bisect
+import glob
+import torch
+import numpy as np
+import pandas as pd
+
+from torch.utils.data.distributed import DistributedSampler 
+from torch.utils.data.sampler import SequentialSampler
+from torch.utils.data import DataLoader,Dataset
+
+
+class DataSet(Dataset):
+    def __init__(self,config):
+        super().__init__()
+        self.code_list = config.code_list
+        self.history_len = config.history_len
+        self.future_len = config.future_len
+        self.seq_len = self.history_len + self.future_len
+        self.stock_infos = self.prepare_dataset(self.code_list)
+        self.names = sorted(self.stock_infos.keys())
+        # 每个股票的有效样本数量
+        self.sample_counts = [
+            len(self.stock_infos[name]) - self.seq_len + 1 
+            for name in self.names
+        ]
+        self.cum_counts = np.cumsum(self.sample_counts).tolist()
+        self.total = self.cum_counts[-1] if self.cum_counts else 0
+        self.cols = ["o","h","l","c","v"]
+
+
+    def __getitem__(self,index):
+        clip_id,internal_idx,clip_name = self._locate(index)
+        paths = sorted(self.stock_infos[clip_name][internal_idx:internal_idx+self.seq_len])
+
+        seq_data = []
+        norm_values = None
+
+        for i, path in enumerate(paths):
+            
+            df = pd.read_csv(path)
+            df["t"] = pd.to_datetime(df["t"])
+            df = df.sort_values("t")
+            trade_data = np.stack([df[col] for col in self.cols]).transpose(1,0)
+            if i == self.history_len - 1:
+                norm_values = trade_data[-1,:]
+            seq_data.append(trade_data)
+        seq_data = np.stack(seq_data) / norm_values
+
+
+        return torch.Tensor(seq_data)
+
+
+    def __len__(self):
+        return self.total
+
+
+    def _locate(self, index):
+        """返回 (clip_id, internal_idx)"""
+        # 找到第一个 cum_counts > index 的位置
+        clip_id = bisect.bisect_right(self.cum_counts, index)
+        if clip_id == 0:
+            internal_idx = index
+        else:
+            internal_idx = index - self.cum_counts[clip_id - 1]
+        clip_name = self.names[clip_id]
+        return clip_id, internal_idx,clip_name
+
+
+
+            
+
+
+    def prepare_dataset(self,path_list):
+        stock_infos = {}
+        with open(path_list,"r") as f:
+            lines = f.readlines()
+            for line in lines:
+                clip_path = line.strip()
+                code_name = clip_path.strip(os.sep).split(os.sep)[-1]
+                datas = sorted(glob.glob(f"{clip_path.rstrip(os.sep)}/*.csv"))
+                stock_infos[code_name] = datas
+        return stock_infos
+
+def worker_rnd_init(x):
+    np.random.seed(13 + x)
+
+
+def build_dataloader(config, dataset_class=None,collate_fn=None):
+    dataset = dataset_class(config)
+    if config.is_train:
+        # 仅当已调用 torch.distributed.init_process_group() 时才用 DistributedSampler，否则单卡/本地调试会报错
+        if torch.distributed.is_initialized():
+            sampler = DistributedSampler(dataset)
+            shuffle = False
+        else:
+            sampler = None
+            shuffle = True
+        pin_memory = False
+    else:
+        sampler = SequentialSampler(dataset)
+        shuffle = False
+        pin_memory = True
+    dataloader = DataLoader(
+        dataset,
+        batch_size=config.batch_size,
+        sampler=sampler,
+        shuffle=shuffle,
+        num_workers=config.num_workers,
+        drop_last=True,
+        pin_memory=pin_memory,
+        collate_fn=collate_fn,
+        worker_init_fn=worker_rnd_init
+    )
+
+    return dataloader,sampler
+
+
+if __name__ == '__main__':
+    from config import Config
+    dataset = DataSet(Config)
+    # dataset.__getitem__(0)
+    dataset.__getitem__(48+136 - 1)
+    
+    
+    print()
+----------------------------------------
+
+文件: demo.py
+----------------------------------------
+import os
+from pathlib import Path
+
+def generate_tree_with_contents(startpath, ignore_dirs=None, output_file=None):
+    startpath = Path(startpath).resolve()
+    if ignore_dirs is None:
+        ignore_dirs = {"logs",".vscode",".idea",'.git', '__pycache__', 'node_modules', 'venv', 'dist', 'build',"reference_code","clip_dataset","nuscenes_mini","e2e_dataset_10Hz"}
+
+    # 收集所有 .py 文件路径
+    py_files = []
+
+    # 用于打印树形结构的函数（递归）
+    def _walk_tree(path, prefix=''):
+        items = sorted(path.iterdir(), key=lambda x: (x.is_file(), x.name))
+        # 过滤忽略文件夹
+        items = [item for item in items if not (item.is_dir() and item.name in ignore_dirs)]
+        for i, item in enumerate(items):
+            is_last = (i == len(items) - 1)
+            connector = '└── ' if is_last else '├── '
+            print(f'{prefix}{connector}{item.name}')
+            if item.is_dir():
+                extension = '    ' if is_last else '│   '
+                _walk_tree(item, prefix + extension)
+            elif item.suffix == '.py':
+                py_files.append(item)  # 记录 .py 文件
+
+# 打印树形结构
+    print(startpath.name + '/')
+    _walk_tree(startpath)
+
+    # 输出文件内容
+    print('\n' + '='*60)
+    print('文件内容列表：')
+    print('='*60)
+    for py_file in py_files:
+        print(f'\n文件: {py_file.relative_to(startpath)}')
+        print('-' * 40)
+        try:
+            with open(py_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+            print(content)
+        except Exception as e:
+            print(f'无法读取文件: {e}')
+        print('-' * 40)
+
+# 使用示例
+if __name__ == '__main__':
+    generate_tree_with_contents('.', output_file=None)  # 可指定 output_file 将输出写入文件
+----------------------------------------
+
+文件: stockgpt.py
+----------------------------------------
+"""
+Full definition of a GPT Language Model, all of it in this single file.
+References:
+1) the official GPT-2 TensorFlow implementation released by OpenAI:
+https://github.com/openai/gpt-2/blob/master/src/model.py
+2) huggingface/transformers PyTorch implementation:
+https://github.com/huggingface/transformers/blob/main/src/transformers/models/gpt2/modeling_gpt2.py
+"""
+
+import math
+import inspect
+from dataclasses import dataclass
+
+import torch
+import torch.nn as nn
+from torch.nn import functional as F
+
+class LayerNorm(nn.Module):
+    """ LayerNorm but with an optional bias. PyTorch doesn't support simply bias=False """
+
+    def __init__(self, ndim, bias):
+        super().__init__()
+        self.weight = nn.Parameter(torch.ones(ndim))
+        self.bias = nn.Parameter(torch.zeros(ndim)) if bias else None
+
+    def forward(self, input):
+        return F.layer_norm(input, self.weight.shape, self.weight, self.bias, 1e-5)
+
+class CausalSelfAttention(nn.Module):
+
+    def __init__(self, config):
+        super().__init__()
+        assert config.n_embd % config.n_head == 0
+        # key, query, value projections for all heads, but in a batch
+        self.c_attn = nn.Linear(config.n_embd, 3 * config.n_embd, bias=config.bias)
+        # output projection
+        self.c_proj = nn.Linear(config.n_embd, config.n_embd, bias=config.bias)
+        # regularization
+        self.attn_dropout = nn.Dropout(config.dropout)
+        self.resid_dropout = nn.Dropout(config.dropout)
+        self.n_head = config.n_head
+        self.n_embd = config.n_embd
+        self.dropout = config.dropout
+        # flash attention make GPU go brrrrr but support is only in PyTorch >= 2.0
+        self.flash = hasattr(torch.nn.functional, 'scaled_dot_product_attention')
+        if not self.flash:
+            print("WARNING: using slow attention. Flash Attention requires PyTorch >= 2.0")
+            # causal mask to ensure that attention is only applied to the left in the input sequence
+            self.register_buffer("bias", torch.tril(torch.ones(config.block_size, config.block_size))
+                                        .view(1, 1, config.block_size, config.block_size))
+
+    def forward(self, x):
+        B, T, C = x.size() # batch size, sequence length, embedding dimensionality (n_embd)
+
+        # calculate query, key, values for all heads in batch and move head forward to be the batch dim
+        q, k, v  = self.c_attn(x).split(self.n_embd, dim=2)
+        k = k.view(B, T, self.n_head, C // self.n_head).transpose(1, 2) # (B, nh, T, hs)
+        q = q.view(B, T, self.n_head, C // self.n_head).transpose(1, 2) # (B, nh, T, hs)
+        v = v.view(B, T, self.n_head, C // self.n_head).transpose(1, 2) # (B, nh, T, hs)
+
+        # causal self-attention; Self-attend: (B, nh, T, hs) x (B, nh, hs, T) -> (B, nh, T, T)
+        if self.flash:
+            # efficient attention using Flash Attention CUDA kernels
+            y = torch.nn.functional.scaled_dot_product_attention(q, k, v, attn_mask=None, dropout_p=self.dropout if self.training else 0, is_causal=True)
+        else:
+            # manual implementation of attention
+            att = (q @ k.transpose(-2, -1)) * (1.0 / math.sqrt(k.size(-1)))
+            att = att.masked_fill(self.bias[:,:,:T,:T] == 0, float('-inf'))
+            att = F.softmax(att, dim=-1)
+            att = self.attn_dropout(att)
+            y = att @ v # (B, nh, T, T) x (B, nh, T, hs) -> (B, nh, T, hs)
+        y = y.transpose(1, 2).contiguous().view(B, T, C) # re-assemble all head outputs side by side
+
+        # output projection
+        y = self.resid_dropout(self.c_proj(y))
+        return y
+
+class MLP(nn.Module):
+
+    def __init__(self, config):
+        super().__init__()
+        self.c_fc    = nn.Linear(config.n_embd, 4 * config.n_embd, bias=config.bias)
+        self.gelu    = nn.GELU()
+        self.c_proj  = nn.Linear(4 * config.n_embd, config.n_embd, bias=config.bias)
+        self.dropout = nn.Dropout(config.dropout)
+
+    def forward(self, x):
+        x = self.c_fc(x)
+        x = self.gelu(x)
+        x = self.c_proj(x)
+        x = self.dropout(x)
+        return x
+
+class Block(nn.Module):
+
+    def __init__(self, config):
+        super().__init__()
+        self.ln_1 = LayerNorm(config.n_embd, bias=config.bias)
+        self.attn = CausalSelfAttention(config)
+        self.ln_2 = LayerNorm(config.n_embd, bias=config.bias)
+        self.mlp = MLP(config)
+
+    def forward(self, x):
+        x = x + self.attn(self.ln_1(x))
+        x = x + self.mlp(self.ln_2(x))
+        return x
+
+@dataclass
+class GPTConfig:
+    block_size: int = 1024
+    vocab_size: int = 50304 # GPT-2 vocab_size of 50257, padded up to nearest multiple of 64 for efficiency
+    n_layer: int = 12
+    n_head: int = 12
+    n_embd: int = 768
+    dropout: float = 0.0
+    bias: bool = True # True: bias in Linears and LayerNorms, like GPT-2. False: a bit better and faster
+
+
+
+class GPT(nn.Module):
+
+    def __init__(self, config):
+        super().__init__()
+        assert config.vocab_size is not None
+        assert config.block_size is not None
+        self.config = config
+
+        self.transformer = nn.ModuleDict(dict(
+            wte = nn.Embedding(config.vocab_size, config.n_embd),
+            wpe = nn.Embedding(config.block_size, config.n_embd),
+            drop = nn.Dropout(config.dropout),
+            h = nn.ModuleList([Block(config) for _ in range(config.n_layer)]),
+            ln_f = LayerNorm(config.n_embd, bias=config.bias),
+        ))
+        self.lm_head = nn.Linear(config.n_embd, config.vocab_size, bias=False)
+        # with weight tying when using torch.compile() some warnings get generated:
+        # "UserWarning: functional_call was passed multiple values for tied weights.
+        # This behavior is deprecated and will be an error in future versions"
+        # not 100% sure what this is, so far seems to be harmless. TODO investigate
+        self.transformer.wte.weight = self.lm_head.weight # https://paperswithcode.com/method/weight-tying
+
+        # init all weights
+        self.apply(self._init_weights)
+        # apply special scaled init to the residual projections, per GPT-2 paper
+        for pn, p in self.named_parameters():
+            if pn.endswith('c_proj.weight'):
+                torch.nn.init.normal_(p, mean=0.0, std=0.02/math.sqrt(2 * config.n_layer))
+
+        # report number of parameters
+        print("number of parameters: %.2fM" % (self.get_num_params()/1e6,))
+
+    def get_num_params(self, non_embedding=True):
+        """
+        Return the number of parameters in the model.
+        For non-embedding count (default), the position embeddings get subtracted.
+        The token embeddings would too, except due to the parameter sharing these
+        params are actually used as weights in the final layer, so we include them.
+        """
+        n_params = sum(p.numel() for p in self.parameters())
+        if non_embedding:
+            n_params -= self.transformer.wpe.weight.numel()
+        return n_params
+
+    def _init_weights(self, module):
+        if isinstance(module, nn.Linear):
+            torch.nn.init.normal_(module.weight, mean=0.0, std=0.02)
+            if module.bias is not None:
+                torch.nn.init.zeros_(module.bias)
+        elif isinstance(module, nn.Embedding):
+            torch.nn.init.normal_(module.weight, mean=0.0, std=0.02)
+
+    def forward(self, idx, targets=None,history_len=None):
+        device = idx.device
+        b, t = idx.size()
+        assert t <= self.config.block_size, f"Cannot forward sequence of length {t}, block size is only {self.config.block_size}"
+        pos = torch.arange(0, t, dtype=torch.long, device=device) # shape (t)
+
+        # forward the GPT model itself
+        tok_emb = self.transformer.wte(idx) # token embeddings of shape (b, t, n_embd)
+        pos_emb = self.transformer.wpe(pos) # position embeddings of shape (t, n_embd)
+        x = self.transformer.drop(tok_emb + pos_emb)
+        for block in self.transformer.h:
+            x = block(x)
+        x = self.transformer.ln_f(x)
+
+        logits = self.lm_head(x)
+
+        loss = None
+
+        if targets is not None:
+            raw_loss = F.cross_entropy(
+                logits.reshape(-1, logits.size(-1)),
+                targets.reshape(-1),
+                reduction='none'
+            )
+
+            if history_len is not None and history_len < t:
+                mask = torch.zeros_like(targets, dtype=torch.float)
+                # 注意：targets 中未来部分的起始位置是 history_len（假设 idx 从0开始）
+                mask[:, history_len:] = 1.0
+                loss = (raw_loss * mask.view(-1)).sum() / mask.sum()
+            else:
+                loss = raw_loss.mean()                
+
+        return logits, loss
+
+    def crop_block_size(self, block_size):
+        # model surgery to decrease the block size if necessary
+        # e.g. we may load the GPT2 pretrained model checkpoint (block size 1024)
+        # but want to use a smaller block size for some smaller, simpler model
+        assert block_size <= self.config.block_size
+        self.config.block_size = block_size
+        self.transformer.wpe.weight = nn.Parameter(self.transformer.wpe.weight[:block_size])
+        for block in self.transformer.h:
+            if hasattr(block.attn, 'bias'):
+                block.attn.bias = block.attn.bias[:,:,:block_size,:block_size]
+
+    @classmethod
+    def from_pretrained(cls, model_type, override_args=None):
+        assert model_type in {'gpt2', 'gpt2-medium', 'gpt2-large', 'gpt2-xl'}
+        override_args = override_args or {} # default to empty dict
+        # only dropout can be overridden see more notes below
+        assert all(k == 'dropout' for k in override_args)
+        from transformers import GPT2LMHeadModel
+        print("loading weights from pretrained gpt: %s" % model_type)
+
+        # n_layer, n_head and n_embd are determined from model_type
+        config_args = {
+            'gpt2':         dict(n_layer=12, n_head=12, n_embd=768),  # 124M params
+            'gpt2-medium':  dict(n_layer=24, n_head=16, n_embd=1024), # 350M params
+            'gpt2-large':   dict(n_layer=36, n_head=20, n_embd=1280), # 774M params
+            'gpt2-xl':      dict(n_layer=48, n_head=25, n_embd=1600), # 1558M params
+        }[model_type]
+        print("forcing vocab_size=50257, block_size=1024, bias=True")
+        config_args['vocab_size'] = 50257 # always 50257 for GPT model checkpoints
+        config_args['block_size'] = 1024 # always 1024 for GPT model checkpoints
+        config_args['bias'] = True # always True for GPT model checkpoints
+        # we can override the dropout rate, if desired
+        if 'dropout' in override_args:
+            print(f"overriding dropout rate to {override_args['dropout']}")
+            config_args['dropout'] = override_args['dropout']
+        # create a from-scratch initialized minGPT model
+        config = GPTConfig(**config_args)
+        model = GPT(config)
+        sd = model.state_dict()
+        sd_keys = sd.keys()
+        sd_keys = [k for k in sd_keys if not k.endswith('.attn.bias')] # discard this mask / buffer, not a param
+
+        # init a huggingface/transformers model
+        model_hf = GPT2LMHeadModel.from_pretrained(model_type)
+        sd_hf = model_hf.state_dict()
+
+        # copy while ensuring all of the parameters are aligned and match in names and shapes
+        sd_keys_hf = sd_hf.keys()
+        sd_keys_hf = [k for k in sd_keys_hf if not k.endswith('.attn.masked_bias')] # ignore these, just a buffer
+        sd_keys_hf = [k for k in sd_keys_hf if not k.endswith('.attn.bias')] # same, just the mask (buffer)
+        transposed = ['attn.c_attn.weight', 'attn.c_proj.weight', 'mlp.c_fc.weight', 'mlp.c_proj.weight']
+        # basically the openai checkpoints use a "Conv1D" module, but we only want to use a vanilla Linear
+        # this means that we have to transpose these weights when we import them
+        assert len(sd_keys_hf) == len(sd_keys), f"mismatched keys: {len(sd_keys_hf)} != {len(sd_keys)}"
+        for k in sd_keys_hf:
+            if any(k.endswith(w) for w in transposed):
+                # special treatment for the Conv1D weights we need to transpose
+                assert sd_hf[k].shape[::-1] == sd[k].shape
+                with torch.no_grad():
+                    sd[k].copy_(sd_hf[k].t())
+            else:
+                # vanilla copy over the other parameters
+                assert sd_hf[k].shape == sd[k].shape
+                with torch.no_grad():
+                    sd[k].copy_(sd_hf[k])
+
+        return model
+
+    def configure_optimizers(self, weight_decay, learning_rate, betas, device_type):
+        # start with all of the candidate parameters
+        param_dict = {pn: p for pn, p in self.named_parameters()}
+        # filter out those that do not require grad
+        param_dict = {pn: p for pn, p in param_dict.items() if p.requires_grad}
+        # create optim groups. Any parameters that is 2D will be weight decayed, otherwise no.
+        # i.e. all weight tensors in matmuls + embeddings decay, all biases and layernorms don't.
+        decay_params = [p for n, p in param_dict.items() if p.dim() >= 2]
+        nodecay_params = [p for n, p in param_dict.items() if p.dim() < 2]
+        optim_groups = [
+            {'params': decay_params, 'weight_decay': weight_decay},
+            {'params': nodecay_params, 'weight_decay': 0.0}
+        ]
+        num_decay_params = sum(p.numel() for p in decay_params)
+        num_nodecay_params = sum(p.numel() for p in nodecay_params)
+        print(f"num decayed parameter tensors: {len(decay_params)}, with {num_decay_params:,} parameters")
+        print(f"num non-decayed parameter tensors: {len(nodecay_params)}, with {num_nodecay_params:,} parameters")
+        # Create AdamW optimizer and use the fused version if it is available
+        fused_available = 'fused' in inspect.signature(torch.optim.AdamW).parameters
+        use_fused = fused_available and device_type == 'cuda'
+        extra_args = dict(fused=True) if use_fused else dict()
+        optimizer = torch.optim.AdamW(optim_groups, lr=learning_rate, betas=betas, **extra_args)
+        print(f"using fused AdamW: {use_fused}")
+
+        return optimizer
+
+    def estimate_mfu(self, fwdbwd_per_iter, dt):
+        """ estimate model flops utilization (MFU) in units of A100 bfloat16 peak FLOPS """
+        # first estimate the number of flops we do per iteration.
+        # see PaLM paper Appendix B as ref: https://arxiv.org/abs/2204.02311
+        N = self.get_num_params()
+        cfg = self.config
+        L, H, Q, T = cfg.n_layer, cfg.n_head, cfg.n_embd//cfg.n_head, cfg.block_size
+        flops_per_token = 6*N + 12*L*H*Q*T
+        flops_per_fwdbwd = flops_per_token * T
+        flops_per_iter = flops_per_fwdbwd * fwdbwd_per_iter
+        # express our flops throughput as ratio of A100 bfloat16 peak flops
+        flops_achieved = flops_per_iter * (1.0/dt) # per second
+        flops_promised = 312e12 # A100 GPU bfloat16 peak flops is 312 TFLOPS
+        mfu = flops_achieved / flops_promised
+        return mfu
+
+    @torch.no_grad()
+    def generate(self, idx, max_new_tokens, temperature=1.0, top_k=None):
+        """
+        Take a conditioning sequence of indices idx (LongTensor of shape (b,t)) and complete
+        the sequence max_new_tokens times, feeding the predictions back into the model each time.
+        Most likely you'll want to make sure to be in model.eval() mode of operation for this.
+        """
+        for _ in range(max_new_tokens):
+            # if the sequence context is growing too long we must crop it at block_size
+            idx_cond = idx if idx.size(1) <= self.config.block_size else idx[:, -self.config.block_size:]
+            # forward the model to get the logits for the index in the sequence
+            logits, _ = self(idx_cond)
+            # pluck the logits at the final step and scale by desired temperature
+            logits = logits[:, -1, :] / temperature
+            # optionally crop the logits to only the top k options
+            if top_k is not None:
+                v, _ = torch.topk(logits, min(top_k, logits.size(-1)))
+                logits[logits < v[:, [-1]]] = -float('Inf')
+            # apply softmax to convert logits to (normalized) probabilities
+            probs = F.softmax(logits, dim=-1)
+            # sample from the distribution
+            idx_next = torch.multinomial(probs, num_samples=1)
+            # append sampled index to the running sequence and continue
+            idx = torch.cat((idx, idx_next), dim=1)
+
+        return idx
+
+
+class StockGPT(nn.Module):
+    def __init__(self,config):
+        super().__init__()
+        self.config = config
+        self.gpt = GPT(config)
+    
+    def prepare_sample(self,history_idx,furture_idx):
+        full_idx = torch.cat([history_idx,furture_idx],-1)
+        input_idx = full_idx[...,:-1]
+        target_idx = full_idx[...,1:]
+        history_len = history_idx.shape[1] - 1
+        return input_idx,target_idx,history_len
+
+    def forward(self,history_idx,furture_idx=None):
+        if furture_idx is None:
+            input_idx,target_idx,history_len = history_idx,None,None
+        else:
+            input_idx,target_idx,history_len = self.prepare_sample(history_idx,furture_idx)
+        logits, loss = self.gpt(input_idx,target_idx,history_len)
+        return logits, loss
+
+    @torch.no_grad()
+    def autoregressive(self,idx,max_new_tokens, temperature=1.0, top_k=None):
+        """
+        自回归生成新的 token
+        idx: (B, T) 初始序列（通常是历史 token）
+        """
+        self.eval()
+        for _ in range(max_new_tokens):
+            # 截取最后 block_size 个 token 作为输入
+            idx_cond = idx[:, -self.config.block_size:]
+            logits, _ = self(idx_cond)
+            # 取最后一个位置的 logits
+            logits = logits[:, -1, :] / temperature
+            if top_k is not None:
+                v, _ = torch.topk(logits, min(top_k, logits.size(-1)))
+                logits[logits < v[:, [-1]]] = -float('Inf')
+            probs = F.softmax(logits, dim=-1)
+            idx_next = torch.multinomial(probs, num_samples=1)
+            idx = torch.cat((idx, idx_next), dim=1)
+        return idx
+
+
+
+if __name__ == '__main__':
+    # bs 240 F --> bs 30 d_latent # 5*48=240
+    bs = 2
+    his_len = 360
+    fur_len = 30
+    vocab_size = 512
+    hist_data = torch.randint(0, vocab_size, (bs, his_len))
+    future_data = torch.randint(0, vocab_size, (bs, fur_len))
+
+
+    config = GPTConfig(
+        block_size = his_len + fur_len,#60 // 5 * 30 + 30,
+        vocab_size = vocab_size,
+        n_layer = 12,
+        n_head = 8,
+        n_embd = 256,
+        dropout = 0.1,
+        bias = True,
+
+    )
+
+    stockgpt = StockGPT(config)
+
+    logits, loss = stockgpt(hist_data,future_data)
+    idx = stockgpt.autoregressive(hist_data,fur_len, temperature=1.0, top_k=None)
+    print()
+
+    pass
+----------------------------------------
+
+文件: stockmodel.py
+----------------------------------------
+import torch
+from torch import nn
+
+from einops import rearrange
+
+from stockvqvae import StockVQVAE,VQVAEConfig
+from stockgpt import StockGPT,GPTConfig
+
+
+class StockModel(nn.Module):
+    def __init__(self,
+                batchsize = 2,
+                vq_encoder_nhead = 8,#60 // 5 * 30 + 30,
+                vq_encoder_num_layers = 2,
+                vq_decoder_nhead = 8,
+                vq_decoder_num_layers = 2,
+                dim_feedforward = 512,
+                
+                input_dim=6,
+                latent_dim=256,
+                fur_day_num = 5,
+                day_dim = 48,
+                token_num = 30,
+                commitment_weight=0.25,
+                ema_decay=0.8,
+
+                vocab_size = 512,
+                his_day_num = 60,
+                gpt_nhead = 8,
+                gpt_num_layersr=12,
+                bias = True,
+
+                dropout = 0.1,
+
+
+        ):
+        super().__init__()
+
+        block_size = his_day_num // fur_day_num * token_num + token_num
+
+        self.token_num = token_num
+        self.batchsize = batchsize
+        self.his_token_num = his_day_num // fur_day_num
+        self.fur_day_num = fur_day_num
+        self.day_dim = day_dim
+
+        
+
+        vqvae_config = VQVAEConfig(
+            encoder_nhead = vq_encoder_nhead,#60 // 5 * 30 + 30,
+            encoder_num_layers = vq_encoder_num_layers,
+            decoder_nhead = vq_decoder_nhead,
+            decoder_num_layers = vq_decoder_num_layers,
+            dim_feedforward = dim_feedforward,
+            dropout = dropout,
+
+            input_dim = input_dim,
+            latent_dim = latent_dim,
+            day_num = fur_day_num,
+            day_dim = day_dim,
+            seq_len = token_num,
+            codebook_size = vocab_size,
+            commitment_weight = commitment_weight,
+            ema_decay = ema_decay
+
+        )
+
+        
+
+        gpt_config = GPTConfig(
+            block_size = block_size,#60 // 5 * 30 + 30,
+            vocab_size = vocab_size,
+            n_layer = gpt_num_layersr,
+            n_head = gpt_nhead,
+            n_embd = latent_dim,
+            dropout = dropout,
+            bias = True,
+
+        )
+
+        self.vqvae = StockVQVAE(vqvae_config,batchsize=batchsize)#input_dim = 6,latent_dim = 256,day_num = 5,day_dim=48,seq_len = 30)
+        self.gpt = StockGPT(gpt_config)
+
+    def idx_vqvae2gpt(self,indices):
+        indices = indices.reshape(self.batchsize,-1,self.token_num)
+        token_num = indices.shape[1]
+        his_indices = indices[:,:self.his_token_num*self.token_num].reshape(self.batchsize,-1)
+        if token_num > self.his_token_num:
+            fur_indices = indices[:,self.his_token_num*self.token_num:].reshape(self.batchsize,-1)
+            
+        else:
+            fur_indices = None
+        return his_indices,fur_indices
+
+    def idx_gpt2vqvae(self,indices):
+        indices = rearrange(indices, 'b (s t) -> (b s) t',t=self.token_num)
+        return indices
+
+    def forward(self,x):
+        
+
+        ze = self.vqvae.encoder(self.vqvae.preprocess(x))
+        zq,indices,commit_loss = self.vqvae.vq(ze)
+        x_recon = self.vqvae.postprocess(self.vqvae.decoder(zq))
+
+
+        his_indices,fur_indices = self.idx_vqvae2gpt(indices)
+        logits, loss = self.gpt(his_indices,fur_indices)
+        return logits, loss 
+
+    def decoder(self,x):
+        ze = self.vqvae.encoder(self.vqvae.preprocess(x))
+        _,indices,_ = self.vqvae.vq(ze)
+        his_indices,_ = self.idx_vqvae2gpt(indices)
+
+
+
+        full_seq = self.gpt.autoregressive(his_indices, max_new_tokens=self.token_num)  
+        fur_tokens = full_seq[:, -self.token_num:]   
+        idx = fur_tokens.reshape(-1, self.token_num) 
+        zq = self.vqvae.vq.get_output_from_indices(idx)  
+        x_recon = self.vqvae.decoder(zq)              
+        x_recon = x_recon.view(self.batchsize, self.fur_day_num, self.day_dim, -1)
+
+
+        return x_recon
+        
+
+if __name__ == '__main__':
+    bs = 2
+    
+    day = 65
+    day_dim = 48
+    feat_dim = 6 #(open close low high 成交量 量比  ...)
+    x = torch.ones((bs,day,day_dim,feat_dim))
+    model = StockModel(batchsize=bs)
+
+    # model(x)
+    model.decoder(x[:,:60])
+
+    """
+    2020.6-2021.6         2020.6-2020.12    1-0.5
+    2021.6-2023.10        2020.12-2021.12   2-1
+    2023.10-2024.10       2022.1-2025.5     1-3.5
+    2024.10-2026.4        2025.5-2025.12    1.5-0.5
+    2026.4-2026.6         2025.12-2026.6    
+
+    """
+
+----------------------------------------
+
+文件: stockvqvae.py
+----------------------------------------
+# -*- encoding: utf-8 -*-
+'''
+@File         :stockvqvae.py
+@Date         :2026/06/18 16:25:47
+@Author       :Binge.Van
+@E-mail       :afb5szh@bosch.com
+@Version      :V1.0.0
+@Description  : https://github.com/lucidrains/vector-quantize-pytorch/tree/master
+
+'''
+
+
+import os,sys
+
+from dataclasses import dataclass
+
+
+import torch
+from torch import nn
+from einops import rearrange
+
+from vector_quantize_pytorch import VectorQuantize
+
+class Encoder(nn.Module):
+    def __init__(self, input_dim=6, latent_dim=256, seq_len=240, out_len=30, nhead=8, num_layers=2,dim_feedforward=512,dropout=0.1):
+        super().__init__()
+        # 卷积下采样
+        self.conv = nn.Sequential(
+            nn.Conv1d(input_dim, 64, kernel_size=4, stride=2, padding=1),
+            nn.ReLU(),
+            nn.Conv1d(64, 128, kernel_size=4, stride=2, padding=1),
+            nn.ReLU(),
+            nn.Conv1d(128, latent_dim, kernel_size=4, stride=2, padding=1),
+            nn.ReLU()
+        )
+        # 全局交互 Transformer
+        encoder_layer = nn.TransformerEncoderLayer(d_model=latent_dim, nhead=nhead, dim_feedforward=dim_feedforward, dropout=0.1)
+        self.transformer = nn.TransformerEncoder(encoder_layer, num_layers=num_layers)
+        self.norm = nn.LayerNorm(latent_dim)
+
+    def forward(self, x):
+        x = x.transpose(1, 2)          # (B, 6, 240) -> (B, 240, 6) ？注意：transpose后应是 (B,6,240)
+        x = self.conv(x)               # (B, 256, 30)
+        x = x.transpose(1, 2)          # (B, 30, 256)
+        x = self.transformer(x)        # (B, 30, 256)
+        x = self.norm(x)
+        return x
+
+class Decoder(nn.Module):
+    def __init__(self, latent_dim=256, output_dim=6, seq_len=240, token_len=30, nhead=8, num_layers=2,dim_feedforward=512, dropout=0.1):
+        super().__init__()
+        # 全局交互 Transformer（与编码器对称）
+        decoder_layer = nn.TransformerEncoderLayer(d_model=latent_dim, nhead=nhead, dim_feedforward=dim_feedforward, dropout=dropout)
+        self.transformer = nn.TransformerEncoder(decoder_layer, num_layers=num_layers)
+        
+        # 转置卷积上采样
+        self.deconv = nn.Sequential(
+            nn.ConvTranspose1d(latent_dim, 128, kernel_size=4, stride=2, padding=1),
+            nn.ReLU(),
+            nn.ConvTranspose1d(128, 64, kernel_size=4, stride=2, padding=1),
+            nn.ReLU(),
+            nn.ConvTranspose1d(64, output_dim, kernel_size=4, stride=2, padding=1)
+        )
+
+    def forward(self, z_q):
+        # z_q: (B, 30, 256)
+        z_q = self.transformer(z_q)        # 全局交互 (B, 30, 256)
+        z_q = z_q.transpose(1, 2)          # (B, 256, 30)
+        x = self.deconv(z_q)               # (B, 6, 240)
+        x = x.transpose(1, 2)              # (B, 240, 6)
+        return x
+
+class StockVQVAE(nn.Module):
+    def __init__(self,config,batchsize):
+        super().__init__()
+        self.batchsize = batchsize
+
+        self.input_dim = config.input_dim
+        self.day_num = config.day_num
+        self.day_dim = config.day_dim
+        self.input_seq_len = config.day_num * config.day_dim # 240
+        self.seq_len = config.seq_len # 30
+        self.encoder_nhead=config.encoder_nhead
+        self.encoder_num_layers=config.encoder_num_layers
+        self.decoder_nhead=config.decoder_nhead
+        self.decoder_num_layers=config.decoder_num_layers
+
+        self.dim_feedforward=config.dim_feedforward
+
+        self.dropout=config.dropout
+
+        self.encoder = Encoder(
+            input_dim=config.input_dim, latent_dim=config.latent_dim, seq_len=self.input_seq_len, out_len=config.seq_len, 
+            nhead=config.encoder_nhead, num_layers=config.encoder_num_layers,dim_feedforward=config.dim_feedforward,dropout=config.dropout
+        )
+        
+        self.vq = VectorQuantize(
+            dim = config.latent_dim, 
+            codebook_size=config.codebook_size,
+            decay=config.ema_decay,
+            commitment_weight=config.commitment_weight
+        )
+
+        self.decoder = Decoder(
+            latent_dim=config.latent_dim, output_dim=config.input_dim, seq_len=self.input_seq_len, token_len=self.seq_len,
+            nhead=config.decoder_nhead, num_layers=config.decoder_num_layers,dim_feedforward=config.dim_feedforward,dropout=config.dropout
+        )
+
+    def preprocess(self,x):
+        bs,total_days,day_dim,dim = x.shape
+        assert total_days % self.day_num == 0, \
+            f"total_days({total_days}) must be a multiple of day_num({self.day_num})"
+        token_chunk = int(total_days // self.day_num)
+        x = rearrange(x, 'b (chunk seq) dd d -> (b chunk) (seq dd) d',chunk=token_chunk,seq=self.day_num)
+        return x
+
+    def postprocess(self,x):
+        x = rearrange(x, '(b chunk) (seq dd) f -> b (chunk seq) dd f',
+                            b=self.batchsize, seq=self.day_num, dd=self.day_dim)
+        return x
+
+    def forward(self,x):
+        x = self.preprocess(x)
+        ze = self.encoder(x)
+        zq,indices,commit_loss = self.vq(ze)
+        x_recon = self.decoder(zq) 
+        x_recon = self.postprocess(x_recon)
+
+        return x_recon, indices, commit_loss
+
+@dataclass
+class VQVAEConfig:
+    encoder_nhead:int=8 
+    encoder_num_layers:int=2
+    decoder_nhead:int=8 
+    decoder_num_layers:int=2
+
+    dim_feedforward:int=512
+
+    dropout:float=0.1
+
+    input_dim:int = 6
+    latent_dim:int = 256
+    day_num:int = 5
+    day_dim:int=48
+    seq_len:int = 30
+    codebook_size:int=512
+    commitment_weight:float=0.25
+    ema_decay:float=0.8
+
+
+if __name__ == '__main__':
+    # bs 240 F --> bs 30 d_latent # 5*48=240
+    bs = 2
+    day = 10
+    day_dim = 48
+    feat_dim = 6 #(open close low high 成交量 量比  ...)
+    input = torch.ones((bs,day,day_dim,feat_dim))
+    model = StockVQVAE(VQVAEConfig)
+    output = model(input)
+    print(output[0].shape)
+
+
+
+
+----------------------------------------
+
+文件: tmp.py
+----------------------------------------
+# -*- encoding: utf-8 -*-
+'''
+@File         :tmp.py
+@Date         :2026/06/22 16:07:17
+@Author       :Binge.Van
+@E-mail       :afb5szh@bosch.com
+@Version      :V1.0.0
+@Description  :
+
+'''
+
+
+import os,sys
+import numpy as np
+
+import pandas as pd
+from datetime import datetime,timedelta
+
+
+
+
+
+
+
+if __name__ == '__main__':
+    
+    start_date = datetime(2026, 1, 5)
+    end_date = datetime(2026, 7, 23)
+    current = start_date
+    while current <= end_date:
+
+        old_date = "20260105"
+        base_path = f"/workspace/afb5szh-01/models/stock/dataset/{old_date}.csv"
+        df = pd.read_csv(base_path)
+
+        date = current.strftime('%Y%m%d')
+        current += timedelta(days=1)
+        # date = "20260106"
+        cols = ["t"]
+        for col in cols:
+            df[col] = df[col].str.replace(
+                datetime.strptime(old_date, "%Y%m%d").strftime("%Y-%m-%d"), 
+                datetime.strptime(date, "%Y%m%d").strftime("%Y-%m-%d"), 
+                regex=False)
+        df.to_csv(base_path.replace(old_date,date), index=False)
+    
+
+----------------------------------------
+
+文件: train.py
+----------------------------------------
+# -*- encoding: utf-8 -*-
+'''
+@File         :train.py
+@Date         :2026/06/25 20:12:25
+@Author       :Binge.Van
+@E-mail       :afb5szh@bosch.com
+@Version      :V1.0.0
+@Description  :
+
+'''
+
+
+import os,sys
+
+import argparse
+import random
+import numpy as np
+import torch
+import torch.backends.cudnn as cudnn
+from torch.optim import lr_scheduler
+
+cudnn.deterministic = True
+cudnn.benchmark = True
+torch.backends.cudnn.benchmark = True
+torch.backends.cudnn.enabled = True
+torch.backends.cuda.matmul.allow_tf32=True
+torch.backends.cudnn.allow_tf32=True
+torch.multiprocessing.set_sharing_strategy('file_system')
+
+
+
+from tensorboardX import SummaryWriter
+
+
+def main(model,dataset,configs):
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--local_rank", default = -1, type=int)
+    args = parser.parse_args()
+
+    script_path = os.path.abspath(__file__)
+
+    if 'LOCAL_RANK' in os.environ:
+        local_rank = int(os.environ['LOCAL_RANK'])
+    else:
+        local_rank = args.local_rank
+
+    if local_rank != -1:
+        torch.cuda.set_device(local_rank)
+        device = torch.device("cuda", local_rank)
+        torch.distributed.init_process_group(backend="nccl", init_method='env://')
+        rank = torch.distributed.get_rank()
+        world_size = torch.distributed.get_world_size()
+    else:
+        device = configs.device #get("device", "cuda")
+        rank = 0
+        world_size = 1
+    if local_rank != -1:
+        model = torch.nn.parallel.DistributedDataParallel(
+            model, device_ids=[local_rank], output_device=local_rank,
+            find_unused_parameters=True
+        )
+
+    num_gpus = torch.cuda.device_count()
+
+    dataloader,sampler = build_dataloader(configs,dataset_class=dataset,collate_fn=None)
+
+
+
+
+if __name__ == '__main__':
+    main()
+----------------------------------------
