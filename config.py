@@ -50,9 +50,9 @@ class GPTConfig:
     block_size: int = 1024
     vocab_size: int = 50304 # GPT-2 vocab_size of 50257, padded up to nearest multiple of 64 for efficiency
     n_layer: int = 12
-    n_head: int = 12
-    n_embd: int = 768
-    dropout: float = 0.0
+    n_head: int = 8  # 须整除 n_embd；与 latent_dim=256 配套（256%8==0）
+    n_embd: int = 256  # 与 VQVAE latent_dim 对齐
+    dropout: float = 0.1
     bias: bool = True # True: bias in Linears and LayerNorms, like GPT-2. False: a bit better and faster
 
 
@@ -67,14 +67,18 @@ class TrainConfig:
     num_workers = 2
 
 
+    chunk_num = 5
+    data_dim = 48
+
     epochs = 100
     lr = 1e-4
     weight_decay = 1e-4
     warmup_steps = 1000
     
+    his_chunk = 12
+    fur_chunk = 1
     
-    history_len = 60 
-    future_len = 5
+    
 
     cols = ["o","h","l","c","v"]
 
@@ -82,11 +86,22 @@ class TrainConfig:
     gpt: GPTConfig = field(default_factory=GPTConfig)
     
     def __post_init__(self):
+        # 更新trainconfig
+        self.history_len = self.chunk_num *  self.his_chunk
+        self.future_len  = self.chunk_num *  self.fur_chunk
+
+
+        # 更新vqvaeconfg
+        self.vqvae.input_dim = len(self.cols)
+        self.vqvae.day_num = self.chunk_num
+        self.vqvae.day_dim = self.data_dim
+
+
         # 统一派生/对齐字段，避免 StockModel 里手算一遍
-        self.gpt.block_size = (
-            self.history_len // self.vqvae.day_num * self.vqvae.seq_len
-            + self.vqvae.seq_len
-        )
+        self.gpt.block_size = (self.history_len + self.future_len) // self.chunk_num * self.vqvae.seq_len
+
         self.gpt.vocab_size = self.vqvae.codebook_size
         self.gpt.n_embd = self.vqvae.latent_dim
         self.gpt.dropout = self.vqvae.dropout
+        if self.gpt.n_embd % self.gpt.n_head != 0:
+            self.gpt.n_head = self.vqvae.encoder_nhead

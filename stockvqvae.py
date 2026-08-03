@@ -71,9 +71,9 @@ class Decoder(nn.Module):
         return x
 
 class StockVQVAE(nn.Module):
-    def __init__(self,config,batchsize):
+    def __init__(self,config):
         super().__init__()
-        self.batchsize = batchsize
+        
 
         self.input_dim = config.input_dim
         self.day_num = config.day_num
@@ -106,25 +106,14 @@ class StockVQVAE(nn.Module):
             nhead=config.decoder_nhead, num_layers=config.decoder_num_layers,dim_feedforward=config.dim_feedforward,dropout=config.dropout
         )
 
-    def preprocess(self,x):
-        bs,total_days,day_dim,dim = x.shape
-        assert total_days % self.day_num == 0, \
-            f"total_days({total_days}) must be a multiple of day_num({self.day_num})"
-        token_chunk = int(total_days // self.day_num)
-        x = rearrange(x, 'b (chunk seq) dd d -> (b chunk) (seq dd) d',chunk=token_chunk,seq=self.day_num)
-        return x
 
-    def postprocess(self,x):
-        x = rearrange(x, '(b chunk) (seq dd) f -> b (chunk seq) dd f',
-                            b=self.batchsize, seq=self.day_num, dd=self.day_dim)
-        return x
 
     def forward(self,x):
-        x = self.preprocess(x)
+        # x = self.preprocess(x)
         ze = self.encoder(x)
         zq,indices,commit_loss = self.vq(ze)
         x_recon = self.decoder(zq) 
-        x_recon = self.postprocess(x_recon)
+        # x_recon = self.postprocess(x_recon)
 
         return x_recon, indices, commit_loss
 
@@ -137,7 +126,8 @@ if __name__ == '__main__':
     day = 10
     day_dim = 48
     feat_dim = 6 #(open close low high 成交量 量比  ...)
+    from config import TrainConfig 
     input = torch.ones((bs,day,day_dim,feat_dim))
-    model = StockVQVAE(VQVAEConfig)
+    model = StockVQVAE(TrainConfig.vqvae)
     output = model(input)
     print(output[0].shape)
