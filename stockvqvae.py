@@ -128,25 +128,7 @@ class StockVQVAE(nn.Module):
 
         return x_recon, indices, commit_loss
 
-@dataclass
-class VQVAEConfig:
-    encoder_nhead:int=8 
-    encoder_num_layers:int=2
-    decoder_nhead:int=8 
-    decoder_num_layers:int=2
 
-    dim_feedforward:int=512
-
-    dropout:float=0.1
-
-    input_dim:int = 6
-    latent_dim:int = 256
-    day_num:int = 5
-    day_dim:int=48
-    seq_len:int = 30
-    codebook_size:int=512
-    commitment_weight:float=0.25
-    ema_decay:float=0.8
 
 
 if __name__ == '__main__':

@@ -3,10 +3,12 @@ from torch import nn
 
 from einops import rearrange
 
-from stockvqvae import StockVQVAE,VQVAEConfig
-from stockgpt import StockGPT,GPTConfig
+from stockvqvae import StockVQVAE
+from stockgpt import StockGPT
 
+from config import TrainConfig
 
+configs = TrainConfig()
 class StockModel(nn.Module):
     def __init__(self,
                 batchsize = 2,

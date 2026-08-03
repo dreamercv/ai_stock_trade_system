@@ -38,7 +38,7 @@ class DataSet(Dataset):
         ]
         self.cum_counts = np.cumsum(self.sample_counts).tolist()
         self.total = self.cum_counts[-1] if self.cum_counts else 0
-        self.cols = ["o","h","l","c","v"]
+        self.cols = config.cols #["o","h","l","c","v"]
 
 
     def __getitem__(self,index):
