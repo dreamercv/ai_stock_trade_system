@@ -1,0 +1,30 @@
+2026-08-18 14:52:37,333 - INFO - train.py:141 - [train] epochs: 100; steps_per_epoch: 30, total_steps (optimizer steps): 3000
+2026-08-18 14:52:37,334 - INFO - train.py:145 - Total LR (global): 1.00e-04, Per-GPU LR: 1.00e-04, world_size: 1
+2026-08-18 14:52:39,742 - INFO - train.py:159 - Epoch: 0/100; iteration:1, Loss: 5.4927e+00
+2026-08-18 14:52:43,651 - INFO - train.py:159 - Epoch: 0/100; iteration:2, Loss: 5.6459e+00
+2026-08-18 14:52:45,145 - INFO - train.py:159 - Epoch: 0/100; iteration:3, Loss: 5.6907e+00
+2026-08-18 14:52:46,245 - INFO - train.py:159 - Epoch: 0/100; iteration:4, Loss: 5.8460e+00
+2026-08-18 14:52:48,337 - INFO - train.py:159 - Epoch: 0/100; iteration:5, Loss: 5.8037e+00
+2026-08-18 14:52:49,278 - INFO - train.py:159 - Epoch: 0/100; iteration:6, Loss: 5.3770e+00
+2026-08-18 14:52:50,350 - INFO - train.py:159 - Epoch: 0/100; iteration:7, Loss: 5.7220e+00
+2026-08-18 14:52:51,850 - INFO - train.py:159 - Epoch: 0/100; iteration:8, Loss: 5.6569e+00
+2026-08-18 14:52:53,282 - INFO - train.py:159 - Epoch: 0/100; iteration:9, Loss: 5.7431e+00
+2026-08-18 14:52:54,553 - INFO - train.py:159 - Epoch: 0/100; iteration:10, Loss: 5.7470e+00
+2026-08-18 14:52:55,848 - INFO - train.py:159 - Epoch: 0/100; iteration:11, Loss: 5.6190e+00
+2026-08-18 14:52:57,282 - INFO - train.py:159 - Epoch: 0/100; iteration:12, Loss: 5.4156e+00
+2026-08-18 14:52:59,367 - INFO - train.py:159 - Epoch: 0/100; iteration:13, Loss: 5.4651e+00
+2026-08-18 14:53:00,684 - INFO - train.py:159 - Epoch: 0/100; iteration:14, Loss: 5.5713e+00
+2026-08-18 14:53:01,885 - INFO - train.py:159 - Epoch: 0/100; iteration:15, Loss: 5.4706e+00
+2026-08-18 14:53:03,300 - INFO - train.py:159 - Epoch: 0/100; iteration:16, Loss: 5.6434e+00
+2026-08-18 14:53:04,522 - INFO - train.py:159 - Epoch: 0/100; iteration:17, Loss: 5.4746e+00
+2026-08-18 14:53:05,807 - INFO - train.py:159 - Epoch: 0/100; iteration:18, Loss: 5.3626e+00
+2026-08-18 14:53:07,015 - INFO - train.py:159 - Epoch: 0/100; iteration:19, Loss: 4.6731e+00
+2026-08-18 14:53:08,095 - INFO - train.py:159 - Epoch: 0/100; iteration:20, Loss: 5.2123e+00
+2026-08-18 14:53:09,374 - INFO - train.py:159 - Epoch: 0/100; iteration:21, Loss: 5.3025e+00
+2026-08-18 14:53:10,775 - INFO - train.py:159 - Epoch: 0/100; iteration:22, Loss: 5.0291e+00
+2026-08-18 14:53:12,051 - INFO - train.py:159 - Epoch: 0/100; iteration:23, Loss: 4.6881e+00
+2026-08-18 14:53:13,385 - INFO - train.py:159 - Epoch: 0/100; iteration:24, Loss: 4.7744e+00
+2026-08-18 14:53:14,837 - INFO - train.py:159 - Epoch: 0/100; iteration:25, Loss: 4.8795e+00
+2026-08-18 14:53:16,100 - INFO - train.py:159 - Epoch: 0/100; iteration:26, Loss: 4.6736e+00
+2026-08-18 14:53:17,332 - INFO - train.py:159 - Epoch: 0/100; iteration:27, Loss: 4.3159e+00
+2026-08-18 14:53:18,587 - INFO - train.py:159 - Epoch: 0/100; iteration:28, Loss: 4.4320e+00

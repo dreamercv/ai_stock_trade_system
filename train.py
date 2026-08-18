@@ -144,24 +144,29 @@ def main(model,dataset,configs):
         )
         logging.info(f"Total LR (global): {total_lr:.2e}, Per-GPU LR: {lr:.2e}, world_size: {world_size}")
 
+    iteration = 0
     model.train()
     for epoch in range(epochs):
-        for batch in dataloader:
+        for i, batch in  enumerate(dataloader):
+            iteration += 1
             optimizer.zero_grad()
-            outputs = model(batch)
-            loss = outputs.loss
+            _,loss = model(batch)
+            # loss = outputs.loss
             loss.backward()
             optimizer.step()
             scheduler.step()
+
+            logging.info(f"Epoch: {epoch}/{epochs}; iteration:{iteration}, Loss: {loss.item():.4e}")
             
 
 
 
 if __name__ == '__main__':
     from stockmodel import StockModel
-    model = StockModel()
-    from dataset import StockDataset
-    dataset = StockDataset()
-    from config import Config
-    configs = Config()
-    main(model,dataset,configs)
+    from config import TrainConfig
+    configs = TrainConfig()
+    model = StockModel(configs)
+    from dataset import DataSet
+    # dataset = DataSet(configs)
+    
+    main(model,DataSet,configs)

@@ -1,0 +1,5 @@
+2026-08-18 14:51:09,369 - INFO - train.py:141 - [train] epochs: 100; steps_per_epoch: 30, total_steps (optimizer steps): 3000
+2026-08-18 14:51:09,369 - INFO - train.py:145 - Total LR (global): 1.00e-04, Per-GPU LR: 1.00e-04, world_size: 1
+2026-08-18 14:51:14,002 - INFO - train.py:159 - Epoch: 0/100; iteration:1, Loss: 6.038109302520752
+2026-08-18 14:51:16,513 - INFO - train.py:159 - Epoch: 0/100; iteration:2, Loss: 5.720852851867676
+2026-08-18 14:51:33,186 - INFO - <string>:1 - Epoch: 0/100; iteration:3, Loss: 5.7209e+00

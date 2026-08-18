@@ -1,0 +1,2 @@
+2026-08-18 14:48:22,289 - INFO - train.py:141 - [train] epochs: 100; steps_per_epoch: 30, total_steps (optimizer steps): 3000
+2026-08-18 14:48:22,289 - INFO - train.py:145 - Total LR (global): 1.00e-04, Per-GPU LR: 1.00e-04, world_size: 1
