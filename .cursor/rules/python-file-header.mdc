@@ -1,0 +1,28 @@
+---
+description: 新建 Python 文件时自动添加标准文件头注释
+globs: "**/*.py"
+alwaysApply: false
+---
+
+# Python 文件头
+
+新建 `.py` 文件时，文件开头必须使用以下头注释（不要省略）：
+
+```python
+# -*- encoding: utf-8 -*-
+'''
+@File         :{filename}
+@Date         :{YYYY/MM/DD HH:MM:SS}
+@Author       :Binge.Van
+@E-mail       :afb5szh@bosch.com
+@Version      :V1.0.0
+@Description  :
+
+'''
+```
+
+- `@File` 填当前文件名（不含路径）
+- `@Date` 填创建时刻，格式 `YYYY/MM/DD HH:MM:SS`
+- `@Description` 用一句话说明该文件用途；暂不清楚则留空
+- 头注释后空一行，再写 `import os,sys` 或实际 import
+- 不要改已有文件的头注释（除非用户明确要求）

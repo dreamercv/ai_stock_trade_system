@@ -25,8 +25,10 @@ class VQVAEConfig:
 
     day_num:int = 5 # 输入的天数必须是5的倍数
     day_dim:int=48
-    seq_len:int = 30 # 5天*48个序列，每个序列有6个特征(open close low high 成交量 量比  ...)被切分成30个token
+    seq_len:int = 30 # 30个token，相当于三十个时间序列 ：要求 day_num*day_dim//seq_len能整除。5天*48个序列，每个序列有6个特征(open close low high 成交量 量比  ...)被切分成30个token 
     input_dim:int = 6
+
+    assert (day_num*day_dim) % seq_len ==0, f"必须整除"
 
 
     encoder_nhead:int=8 
@@ -47,7 +49,7 @@ class VQVAEConfig:
 
 @dataclass
 class GPTConfig:
-    block_size: int = 1024
+    block_size: int = 30 # 回归步数
     vocab_size: int = 50304 # GPT-2 vocab_size of 50257, padded up to nearest multiple of 64 for efficiency
     n_layer: int = 12
     n_head: int = 8  # 须整除 n_embd；与 latent_dim=256 配套（256%8==0）
@@ -67,8 +69,8 @@ class TrainConfig:
     num_workers = 2
 
 
-    chunk_num = 5
-    data_dim = 48
+    chunk_num = 5 # 5天一个块 # 五天分成30块，30个时间序列
+    data_dim = 48 # 15分钟的数据一天有48个序列，每个序列有cols个特征
 
     epochs = 100
     lr = 1e-4

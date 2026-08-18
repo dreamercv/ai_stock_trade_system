@@ -17,6 +17,12 @@ class StockModel(nn.Module):
         self.chunk_num = config.chunk_num
         self.batchsize = config.batch_size
 
+        self.day_num = config.vqvae.day_num
+        self.token_len = config.vqvae.seq_len
+        self.his_token_num = config.his_chunk
+        self.fur_token_num = config.fur_chunk
+        self.data_dim = config.data_dim
+
         # self.token_num = token_num
         # self.his_token_num = his_day_num // fur_day_num
         # self.fur_day_num = fur_day_num
@@ -29,11 +35,11 @@ class StockModel(nn.Module):
         self.gpt = StockGPT(config.gpt)
 
     def idx_vqvae2gpt(self,indices):
-        indices = indices.reshape(self.batchsize,-1,self.token_num)
+        indices = indices.reshape(self.batchsize,-1,self.token_len)
         token_num = indices.shape[1]
-        his_indices = indices[:,:self.his_token_num*self.token_num].reshape(self.batchsize,-1)
+        his_indices = indices[:,:self.his_token_num,:].reshape(self.batchsize,-1)
         if token_num > self.his_token_num:
-            fur_indices = indices[:,self.his_token_num*self.token_num:].reshape(self.batchsize,-1)
+            fur_indices = indices[:,self.his_token_num:,:].reshape(self.batchsize,-1)
             
         else:
             fur_indices = None
@@ -53,7 +59,7 @@ class StockModel(nn.Module):
 
     def postprocess(self,x):
         x = rearrange(x, '(b chunk) (seq dd) f -> b (chunk seq) dd f',
-                            b=self.batchsize, seq=self.day_num, dd=self.day_dim)
+                            b=self.batchsize, seq=self.day_num)
         return x
 
     def forward(self,x):
@@ -76,14 +82,12 @@ class StockModel(nn.Module):
 
 
 
-        full_seq = self.gpt.autoregressive(his_indices, max_new_tokens=self.token_num)  
-        fur_tokens = full_seq[:, -self.token_num:]   
-        idx = fur_tokens.reshape(-1, self.token_num) 
+        full_seq = self.gpt.autoregressive(his_indices, max_new_tokens=self.token_len)  
+        fur_tokens = full_seq[:, -self.token_len:]   
+        idx = fur_tokens.reshape(-1, self.token_len) 
         zq = self.vqvae.vq.get_output_from_indices(idx)  
         x_recon = self.vqvae.decoder(zq)              
-        x_recon = x_recon.view(self.batchsize, self.fur_day_num, self.day_dim, -1)
-
-
+        x_recon = rearrange(x_recon, 'b (chunk dd) d-> b chunk dd d',dd=self.data_dim)
         return x_recon
         
 
